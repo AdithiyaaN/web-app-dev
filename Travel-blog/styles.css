@@ -69,3 +69,66 @@ footer .social-media a {
     text-decoration: none;
     margin: 0 10px;
 }
+
+/* Blog posts grid layout */
+.blog-posts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.blog-posts .post {
+    width: 300px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.blog-posts .post img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.blog-posts .post .post-summary {
+    padding: 10px;
+}
+
+.blog-posts .post .post-summary h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.blog-posts .post .post-summary p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.blog-posts .post .post-summary a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Pagination styling */
+.pagination {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.pagination a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.pagination a:hover {
+    background-color: #ddd;
+}
+
